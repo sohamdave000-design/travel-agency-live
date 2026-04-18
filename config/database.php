@@ -3,7 +3,8 @@ session_start(); // Start session globally across all files including this
 
 // Robust environment variable lookup
 function get_env_var($name, $default = '') {
-    return getenv($name) ? getenv($name) : ($_ENV[$name] ?? ($_SERVER[$name] ?? $default));
+    $val = getenv($name) ? getenv($name) : ($_ENV[$name] ?? ($_SERVER[$name] ?? $default));
+    return trim($val);
 }
 
 // Railway provides these automatically
