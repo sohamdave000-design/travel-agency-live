@@ -1,0 +1,10 @@
+{
+    "name": "travel-agency/website",
+    "description": "Travel Agency Website with AI Planner and Regional Tours",
+    "require": {
+        "php": ">=8.0",
+        "ext-pdo": "*",
+        "ext-pdo_mysql": "*"
+    },
+    "license": "MIT"
+}

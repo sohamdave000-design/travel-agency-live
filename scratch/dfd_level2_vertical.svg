@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1600" height="1400" xmlns="http://www.w3.org/2000/svg">
+<rect width="1600" height="1400" fill="white"/>
+<text x="50" y="80" font-size="35" font-family="Arial" font-weight="bold">Level -2 DFD:</text>
+<line x1="300" y1="500" x2="825" y2="180" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="452.5" y="160" font-size="16" font-family="Arial" fill="#333" font-weight="bold">Search Buses</text>
+<line x1="300" y1="500" x2="825" y2="450" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="522.5" y="445" font-size="16" font-family="Arial" fill="#333" font-weight="bold">Book Ticket</text>
+<line x1="300" y1="500" x2="325" y2="1070" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="272.5" y="885" font-size="16" font-family="Arial" fill="#333" font-weight="bold">Rent Vehicle</text>
+<line x1="1350" y1="500" x2="825" y2="180" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="1197.5" y="160" font-size="16" font-family="Arial" fill="#333" font-weight="bold">Add Tour Package Route</text>
+<line x1="825" y1="180" x2="825" y2="50" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="855" y="65" font-size="16" font-family="Arial" fill="#333" font-weight="bold">R/W</text>
+<line x1="825" y1="180" x2="825" y2="450" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="865" y="315" font-size="16" font-family="Arial" fill="#333" font-weight="bold">Tour Route</text>
+<line x1="825" y1="450" x2="825" y2="760" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="865" y="605" font-size="16" font-family="Arial" fill="#333" font-weight="bold">Tour Route</text>
+<line x1="825" y1="760" x2="825" y2="1070" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="865" y="915" font-size="16" font-family="Arial" fill="#333" font-weight="bold">Ticket Detail</text>
+<line x1="825" y1="760" x2="1200" y2="760" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="1012.5" y="720" font-size="16" font-family="Arial" fill="#333" font-weight="bold">R/W</text>
+<line x1="825" y1="1070" x2="825" y2="1280" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="865" y="1175" font-size="16" font-family="Arial" fill="#333" font-weight="bold">R/W</text>
+<line x1="325" y1="1070" x2="100" y2="1070" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="212.5" y="1030" font-size="16" font-family="Arial" fill="#333" font-weight="bold">R/W</text>
+<polyline points="325,1070 575,1070 825,1070 " fill="none" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="575" y="1040" font-size="16" font-family="Arial" fill="#333" font-weight="bold">Rental Confirmation</text>
+<polyline points="825,1070 1350,1070 1350,540 " fill="none" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="1470" y="1060" font-size="16" font-family="Arial" fill="#333" font-weight="bold">Customer List</text>
+<circle cx="825" cy="180" r="95" fill="white" stroke="black" stroke-width="3"/>
+<text x="825" y="165" font-size="18" font-family="Arial" font-weight="bold" text-anchor="middle">2.1</text>
+<text x="825" y="200" font-size="16" font-family="Arial" text-anchor="middle">Tour Package Route</text>
+<circle cx="825" cy="450" r="95" fill="white" stroke="black" stroke-width="3"/>
+<text x="825" y="435" font-size="18" font-family="Arial" font-weight="bold" text-anchor="middle">2.2</text>
+<text x="825" y="465" font-size="15" font-family="Arial" text-anchor="middle">Tour Package</text>
+<text x="825" y="485" font-size="15" font-family="Arial" text-anchor="middle">Confirmation</text>
+<circle cx="825" cy="760" r="95" fill="white" stroke="black" stroke-width="3"/>
+<text x="825" y="745" font-size="18" font-family="Arial" font-weight="bold" text-anchor="middle">2.3</text>
+<text x="825" y="780" font-size="16" font-family="Arial" text-anchor="middle">Seat Confirmation</text>
+<circle cx="825" cy="1070" r="95" fill="white" stroke="black" stroke-width="3"/>
+<text x="825" y="1055" font-size="18" font-family="Arial" font-weight="bold" text-anchor="middle">2.4</text>
+<text x="825" y="1085" font-size="15" font-family="Arial" text-anchor="middle">Payment And</text>
+<text x="825" y="1105" font-size="15" font-family="Arial" text-anchor="middle">Ticket Confirmation</text>
+<circle cx="325" cy="1070" r="95" fill="white" stroke="black" stroke-width="3"/>
+<text x="325" y="1055" font-size="18" font-family="Arial" font-weight="bold" text-anchor="middle">2.5</text>
+<text x="325" y="1090" font-size="16" font-family="Arial" text-anchor="middle">Rental Service</text>
+<rect x="210" y="460" width="180" height="80" fill="white" stroke="black" stroke-width="3"/>
+<text x="300" y="510" font-size="22" font-family="Arial" font-weight="bold" text-anchor="middle">Customer</text>
+<rect x="1260" y="460" width="180" height="80" fill="white" stroke="black" stroke-width="3"/>
+<text x="1350" y="510" font-size="22" font-family="Arial" font-weight="bold" text-anchor="middle">Admin</text>
+<line x1="715" y1="20" x2="935" y2="20" stroke="black" stroke-width="3"/>
+<line x1="715" y1="80" x2="935" y2="80" stroke="black" stroke-width="3"/>
+<text x="825" y="57" font-size="18" font-family="Arial" font-weight="bold" text-anchor="middle">Package DB</text>
+<line x1="-10" y1="1040" x2="210" y2="1040" stroke="black" stroke-width="3"/>
+<line x1="-10" y1="1100" x2="210" y2="1100" stroke="black" stroke-width="3"/>
+<text x="100" y="1077" font-size="18" font-family="Arial" font-weight="bold" text-anchor="middle">sr DB</text>
+<line x1="1090" y1="730" x2="1310" y2="730" stroke="black" stroke-width="3"/>
+<line x1="1090" y1="790" x2="1310" y2="790" stroke="black" stroke-width="3"/>
+<text x="1200" y="767" font-size="18" font-family="Arial" font-weight="bold" text-anchor="middle">bus_booking DB</text>
+<line x1="715" y1="1250" x2="935" y2="1250" stroke="black" stroke-width="3"/>
+<line x1="715" y1="1310" x2="935" y2="1310" stroke="black" stroke-width="3"/>
+<text x="825" y="1287" font-size="18" font-family="Arial" font-weight="bold" text-anchor="middle">bus_booking DB</text>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="black"/></marker></defs>
+</svg>

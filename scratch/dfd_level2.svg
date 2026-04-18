@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1600" height="1200" xmlns="http://www.w3.org/2000/svg">
+<rect width="1600" height="1200" fill="#ffffff"/>
+<text x="50" y="50" font-size="30" font-family="Arial" font-weight="bold" fill="black">DFD Level 2: Detailed Booking System</text>
+<line x1="200" y1="400" x2="800" y2="200" stroke="black" stroke-width="2"/>
+<text x="515" y="290" font-size="16" font-family="Arial" fill="black" font-weight="bold">Search Query</text>
+<line x1="200" y1="400" x2="800" y2="450" stroke="black" stroke-width="2"/>
+<text x="515" y="415" font-size="16" font-family="Arial" fill="black" font-weight="bold">Selection</text>
+<line x1="200" y1="400" x2="800" y2="700" stroke="black" stroke-width="2"/>
+<text x="515" y="540" font-size="16" font-family="Arial" fill="black" font-weight="bold">Payment Info</text>
+<line x1="200" y1="400" x2="400" y2="700" stroke="black" stroke-width="2"/>
+<text x="315" y="540" font-size="16" font-family="Arial" fill="black" font-weight="bold">Rent Request</text>
+<line x1="800" y1="200" x2="1200" y2="200" stroke="black" stroke-width="2"/>
+<text x="1015" y="190" font-size="16" font-family="Arial" fill="black" font-weight="bold">Fetch Data</text>
+<line x1="800" y1="700" x2="1200" y2="700" stroke="black" stroke-width="2"/>
+<text x="1015" y="690" font-size="16" font-family="Arial" fill="black" font-weight="bold">Update Status</text>
+<line x1="800" y1="700" x2="1200" y2="950" stroke="black" stroke-width="2"/>
+<text x="1015" y="815" font-size="16" font-family="Arial" fill="black" font-weight="bold">Log Transaction</text>
+<line x1="400" y1="700" x2="150" y2="700" stroke="black" stroke-width="2"/>
+<text x="290" y="690" font-size="16" font-family="Arial" fill="black" font-weight="bold">Check Availability</text>
+<line x1="1400" y1="400" x2="800" y2="200" stroke="black" stroke-width="2"/>
+<text x="1115" y="290" font-size="16" font-family="Arial" fill="black" font-weight="bold">Manage Packages</text>
+<line x1="1400" y1="400" x2="800" y2="950" stroke="black" stroke-width="2"/>
+<text x="1115" y="665" font-size="16" font-family="Arial" fill="black" font-weight="bold">View Stats</text>
+<circle cx="800" cy="200" r="90" fill="#f9f9f9" stroke="black" stroke-width="3"/>
+<text x="800" y="190" font-size="18" font-family="Arial" font-weight="bold" text-anchor="middle" fill="black">2.1</text>
+<text x="800" y="220" font-size="14" font-family="Arial" text-anchor="middle" fill="black">Search &amp; Select Package</text>
+<circle cx="800" cy="450" r="90" fill="#f9f9f9" stroke="black" stroke-width="3"/>
+<text x="800" y="440" font-size="18" font-family="Arial" font-weight="bold" text-anchor="middle" fill="black">2.2</text>
+<text x="800" y="470" font-size="14" font-family="Arial" text-anchor="middle" fill="black">Confirm Package Details</text>
+<circle cx="800" cy="700" r="90" fill="#f9f9f9" stroke="black" stroke-width="3"/>
+<text x="800" y="690" font-size="18" font-family="Arial" font-weight="bold" text-anchor="middle" fill="black">2.3</text>
+<text x="800" y="720" font-size="14" font-family="Arial" text-anchor="middle" fill="black">Process Payments</text>
+<circle cx="800" cy="950" r="90" fill="#f9f9f9" stroke="black" stroke-width="3"/>
+<text x="800" y="940" font-size="18" font-family="Arial" font-weight="bold" text-anchor="middle" fill="black">2.4</text>
+<text x="800" y="970" font-size="14" font-family="Arial" text-anchor="middle" fill="black">Manage Bookings</text>
+<circle cx="400" cy="700" r="90" fill="#f9f9f9" stroke="black" stroke-width="3"/>
+<text x="400" y="690" font-size="18" font-family="Arial" font-weight="bold" text-anchor="middle" fill="black">2.5</text>
+<text x="400" y="720" font-size="14" font-family="Arial" text-anchor="middle" fill="black">Rental Management</text>
+<rect x="110" y="360" width="180" height="80" fill="#eee" stroke="black" stroke-width="3"/>
+<text x="200" y="410" font-size="20" font-family="Arial" font-weight="bold" text-anchor="middle" fill="black">Customer</text>
+<rect x="1310" y="360" width="180" height="80" fill="#eee" stroke="black" stroke-width="3"/>
+<text x="1400" y="410" font-size="20" font-family="Arial" font-weight="bold" text-anchor="middle" fill="black">Admin</text>
+<line x1="1100" y1="165" x2="1300" y2="165" stroke="black" stroke-width="3"/>
+<line x1="1100" y1="235" x2="1300" y2="235" stroke="black" stroke-width="3"/>
+<text x="1200" y="210" font-size="18" font-family="Arial" font-weight="bold" text-anchor="middle" fill="black">Packages DB</text>
+<line x1="1100" y1="665" x2="1300" y2="665" stroke="black" stroke-width="3"/>
+<line x1="1100" y1="735" x2="1300" y2="735" stroke="black" stroke-width="3"/>
+<text x="1200" y="710" font-size="18" font-family="Arial" font-weight="bold" text-anchor="middle" fill="black">Bookings DB</text>
+<line x1="1100" y1="915" x2="1300" y2="915" stroke="black" stroke-width="3"/>
+<line x1="1100" y1="985" x2="1300" y2="985" stroke="black" stroke-width="3"/>
+<text x="1200" y="960" font-size="18" font-family="Arial" font-weight="bold" text-anchor="middle" fill="black">Payment DB</text>
+<line x1="50" y1="665" x2="250" y2="665" stroke="black" stroke-width="3"/>
+<line x1="50" y1="735" x2="250" y2="735" stroke="black" stroke-width="3"/>
+<text x="150" y="710" font-size="18" font-family="Arial" font-weight="bold" text-anchor="middle" fill="black">Rental DB</text>
+</svg>
